@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+body{
+    background-color: rgb(15, 15, 14);
+
+}
+.left{
+    background-color: rgb(15, 15, 14);
+    width: 320px;
+    height: 900px;
+    padding-right: 10px;
+    position: sticky;
+    top: 3px;
+    
+}
+.right{
+    background-color: rgb(28, 31, 28);
+    width:90%;
+    height: 600px;
+    border-radius: 15px;
+    position: sticky;
+    margin-top: 0px;
+    padding: 0;
+    margin: 0;
+    margin-left: 60px;
+}
+.out{
+    display: flex;
+}
+.lup{
+    background-color: rgb(28, 31, 28);
+    height: 200px;
+    width: 320px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding-top: 10px;
+    position: fixed;
+    top: 10px;
+   
+}
+.ldown{
+    background-color: rgb(28, 31, 28);
+    height: 350px;
+    width: 320px;
+    border-radius: 15px;
+    position: fixed;
+    top:230px;
+}
+.library_bg{
+    background-color: rgb(28, 31, 28);
+    height: 40px;
+    margin: 10px 5px 5px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.playlist_bg{
+    background-color:  rgb(28, 31, 28);
+    height: 120px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 15px 15px 0 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.details{
+    background-color:  rgb(28, 31, 28);
+    height: 160px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 0 0 15px 15px;
+}
+.data{
+    background-color: rgb(28, 31, 28);
+    height: 100px;
+}
+.lang{
+    background-color:  rgb(28, 31, 28);
+    height: 40px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-radius: 25px;
+    border: #ffffff;
+    border-color: #ffffff;
+    border-width: 2px ;
+}
+.dat1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-top: 5px ;
+     font-size: 12px;
+     color: aliceblue;
+     margin-left: 10px; 
+}
+.sdbg{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    height: 70px;
+}
+.sdown{
+    
+    background-image: linear-gradient(90deg,rgb(172, 1, 86),rgb(3, 133, 255) );
+    height: 50px;
+    width: 1330px ;
+    border-radius: 5px;
+    position: fixed;
+    top:590px;
+    z-index: 100;
+    display:flex;
+}
+.logo{
+    width: 150px;   
+    padding-left: 0px;
+}
+.logo1{
+    width: 32px;
+    height: 32px;
+    margin-left: 25px;
+    display: flex;
+}
+.home{
+    margin: 10px;
+    font-family: "Poetsen One", sans-serif;
+    color: #ffffff;
+}
+.logo2{
+    width: 55px;
+    height: 40px;
+    margin-left: 15px;
+    display: flex;
+}
+.search{
+    margin-top: 8px;
+    font-family: "Poetsen One", sans-serif;
+    color: #ffffff;
+}
+
+.navbg{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(15, 15, 14);
+    position:fixed;
+    top: 0px;
+    height: 75px;
+    width: 1000px;
+}
+.nav{
+    background-color: rgb(28, 31, 28);
+    height:75px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: sticky;
+    top: 10px;
+}
+.back{
+    height: 25px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(22, 22, 21);
+    font-family: "Poetsen One", sans-serif;
+    text-align: center;
+    padding-top: 5px;
+    margin-right: 10px;
+    position: sticky;
+    font-stretch: semi-expanded;
+    color: #ffffff;
+    
+}
+.login{
+    background-color: #ffffff;
+    font-family: "Poetsen One", sans-serif;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;  
+    margin-right: 20px;  
+    
+}
+.signup{
+    color: #ffffff;
+    font-family: "Poetsen One", sans-serif;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;  
+    margin-right: 20px;  
+}
+.sec1{
+    background-color: rgb(38, 43, 38);
+    height: 250px;
+}
+.sec12{
+    color: #ffffff;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+.sec13{
+    background-color: rgb(38, 43, 38);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.a1{
+    background-image: linear-gradient(rgb(38, 43, 38),rgb(38, 43, 38));
+    border-radius: 5px;
+    height: 250spx;
+    width: 200px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.a3{
+    background-image: linear-gradient(rgb(38, 43, 38),rgb(38, 43, 38));
+    border-radius: 5px;
+    height: 250spx;
+    width: 200px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
+.image{
+    background-color: black;
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+.hoverele{
+    height:40px
+}
+.play{
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 0px;
+}
+
+.play {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+.a1{
+    opacity: 1; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Smooth transition */ 
+}
+  /* Define the keyframes for the animation */
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes fadeIn2 {
+    0% { background-image: linear-gradient(rgb(38, 43, 38),rgb(38, 43, 38));}
+    100% {background-image: linear-gradient(rgb(27, 31, 27),rgb(67, 75, 67));}
+  }
+  /* Apply the animation to the play button */
+  .a1:hover .play {
+    animation: fadeIn 0.3s ease forwards; /* Apply fadeIn animation on hover */
+  }
+  .a2:hover .play {
+    animation: fadeIn 0.3s ease forwards; /* Apply fadeIn animation on hover */
+  }
+  .a1:hover .a3{
+    animation: fadeIn2 0.3s ease forwards;
+  }
+  .a2:hover .a4{
+    animation: fadeIn2 0.3s ease forwards;
+  }
+
+
+
+.font{
+    font-family: "Poetsen One", sans-serif;
+    margin: 5px;
+    margin-left: 20px;
+   
+}
+.sec2{
+    background-color: rgb(38, 43, 38);
+    height: 250px;
+}
+.sec23{
+    background-color: rgb(38, 43, 38);
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+.a2{
+    background-color: rgb(38, 43, 38);
+    height: 260px;
+    width: 200px;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.a4{
+    background-color: rgb(38, 43, 38);
+    height: 280px;
+    width: 200px;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.album{
+    background-color: black;
+    height: 180px;
+    width: 180px;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+}
